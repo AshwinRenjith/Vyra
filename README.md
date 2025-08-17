@@ -55,8 +55,8 @@ graph TD
     D --> E[RVQ Quantizer<br/>4 stages, 1024 codebook]
     
     E --> F[Mother Node Router<br/>8L, 1024H, 16heads]
-    F --> G[Domain Experts<br/>Science|Law|Code|Dialogue]
-    G --> H[Subdomain Experts<br/>Physics|Biology|Chemistry]
+    F --> G[Domain Experts<br/>Science \| Law \| Code \| Dialogue]
+    G --> H[Subdomain Experts<br/>Physics \| Biology \| Chemistry]
     
     F --> I[Budget Controller<br/>Lagrangian Optimization]
     I --> J[Dynamic Tree Manager<br/>BIC-based spawning]
@@ -71,9 +71,7 @@ graph TD
     style F fill:#fff3e0
     style I fill:#fce4ec
 ```
-
 </div>
-
 ### 🧬 **Component Deep Dive**
 
 #### **1. Byte-Latent Codec**
