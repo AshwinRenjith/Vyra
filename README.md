@@ -55,8 +55,8 @@ graph TD
     D --> E[RVQ Quantizer<br/>4 stages, 1024 codebook]
     
     E --> F[Mother Node Router<br/>8L, 1024H, 16heads]
-    F --> G[Domain Experts<br/>Science \| Law \| Code \| Dialogue]
-    G --> H[Subdomain Experts<br/>Physics \| Biology \| Chemistry]
+    F --> G[Domain Experts<br/>Science &#124; Law &#124; Code &#124; Dialogue]
+    G --> H[Subdomain Experts<br/>Physics &#124; Biology &#124; Chemistry]
     
     F --> I[Budget Controller<br/>Lagrangian Optimization]
     I --> J[Dynamic Tree Manager<br/>BIC-based spawning]
