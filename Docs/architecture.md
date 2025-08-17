@@ -78,7 +78,7 @@ graph TB
 
 ### 🔬 **Detailed Architecture Diagram**
 
-![Detailed Vyra Architecture](![image1](image1))
+![Architecture Overview](https://github.com/AshwinRenjith/Vyra/blob/main/Assets/Final%20Architecture%20Diagram%20_%20Mermaid%20Chart-2025-08-16-071540.png)
 
 *Figure 1: Complete Vyra DH-MoE Architecture - From raw text input through byte-latent compression, hierarchical expert routing with budget control, dynamic tree management, and specialized expert processing to final text reconstruction. The diagram shows the full pipeline including RVQ compression (8× reduction), Lagrangian budget optimization, BIC-based expert spawning, and the three-tier expert hierarchy (Domain → Subdomain → Micro experts).*
 
